@@ -57,8 +57,17 @@ a {
 
 nav,
 #hero-section,
-.cta {
-  padding: 0 120px;
+.cta,
+section.quote {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+#hero-section,
+.cta,
+section.quote {
+  padding-top: 100px;
+  padding-bottom:100px;
 }
 
 #hero-section {
@@ -136,7 +145,13 @@ img {
   padding-bottom: 100px;
 }
 
-.cta__card__main {
+.cta__title {
+  font-size: 36px;
+  font-weight: 900;
+  padding-bottom: 50px;
+}
+
+.cta__body {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -147,4 +162,28 @@ img {
   height: 150px;
   border: 3px solid #3882f6;
   border-radius: 20px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote__body {
+  width: max-content;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  color: #1f2937;
+}
+
+.quote__normal {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.quote__bold {
+  font-size: 24px;
+  font-weight:600;
+  align-self: flex-end;
 }

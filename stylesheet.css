@@ -59,7 +59,8 @@ nav,
 #hero-section,
 .cta,
 section.quote,
-.cta__footer-section {
+.cta__footer-section,
+.footer-section {
   padding-left: 120px;
   padding-right: 120px;
 }
@@ -70,6 +71,17 @@ section.quote,
 .cta__footer-section {
   padding-top: 100px;
   padding-bottom:100px;
+}
+
+.footer-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.footer-section p {
+    text-align: center;
+    font-size: 12px;
 }
 
 nav {
